@@ -181,6 +181,26 @@ article {
   background: var(--jet);
   margin: 16px 0;
 }
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon-box {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .icon-box {
   position: relative;
