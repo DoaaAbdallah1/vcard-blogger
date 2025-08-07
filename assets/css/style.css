@@ -200,6 +200,10 @@ article {
   display: flex;
   flex-direction: column;
 }
+.contact {
+  height: auto;
+  padding-bottom: 120px; /* أو حسب عدد الأيقونات */
+}
 
 
 .icon-box {
