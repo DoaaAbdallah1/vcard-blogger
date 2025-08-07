@@ -1937,6 +1937,29 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding: 10px;
   }
 }
+/* الحل الخاص بعناصر التواصل في الموبايل */
+@media (max-width: 768px) {
+  .contact-list {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start;
+  }
+
+  .contact-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .icon-box {
+    margin-right: 10px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    word-break: break-word;
+  }
+}
+
 
 
 }
